@@ -1,0 +1,136 @@
+.whywe-container {
+    background-color: #F7F8FC;
+    padding: 75px 80px;
+}
+
+.whywe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.head-Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
+
+.head-Title::after {
+    content: "";
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, #1D7328, #539F22);
+}
+
+.whywe-card {
+    width: calc(25% - 15px);
+    /* margin-bottom: 24px; */
+    /* background-color: #000; */
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+}
+
+.whywe-thumbnail {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.whywe-thumbnail img {
+    width: 100%;
+    display: block;
+    height: 60%;
+    width: fit-content;
+    z-index: 2;
+}
+
+
+.whywe-details {
+    padding: 5px;
+}
+
+.whywe-title {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #539F22;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: 0.9;
+}
+
+/* ---------media-query--------- */
+
+@media screen and (max-width: 1024px) {
+    .whywe-card {
+        width: calc(45% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .whywe-card {
+        width: calc(45% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .whywe-container {
+        padding: 75px 4%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .head-Title {
+        font-size: 24px;
+    }
+
+    .head-Title::after {
+        width: 80px;
+    }
+
+    .whywe-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+    .whywe-thumbnail img{
+        padding: 24px;
+        height: 100%;
+    }
+
+    .whywe-title {
+        font-size: 21px;
+    }
+
+    .whywe-details {
+        padding-bottom: 16px;
+    }
+
+    .whywe-details .desc {
+        font-size: 16px;
+    }
+}
+

@@ -1,0 +1,109 @@
+.Assurity-container {
+    background-color: #F7F8FC;
+    padding: 0px 15%;
+    /* padding-bottom: 75px; */
+}
+
+.Assurity {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.Assurity-card {
+    width: calc(25% - 15px);
+    padding: 20px 10px;
+}
+
+.Assurity-thumbnail {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F2F2F2;
+}
+
+.Assurity-thumbnail img {
+    width: 100%;
+    display: block;
+    height: 50%;
+    width: fit-content;
+    z-index: 2;
+}
+
+
+.Assurity-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-align: center;
+    justify-content: center;
+    color: #243136;
+}
+
+
+/* ---------media-query--------- */
+@media screen and (max-width: 1200px) {
+    .Assurity-container{
+       padding: 75px 8%;
+        
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Assurity-card {
+        width: calc(30% - 10px);
+    }
+}
+@media screen and (max-width: 900px) {
+    .Assurity-container {
+        padding: 75px 8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Assurity-card {
+        width: calc(45% - 10px);
+    }
+}
+@media screen and (max-width: 550px) {
+    .Assurity-container {
+        padding: 75px 4%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .head-Title {
+        font-size: 24px;
+    }
+
+    .head-Title::after {
+        width: 80px;
+    }
+
+    .Assurity-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .Assurity-title {
+        font-size: 21px;
+    }
+    .Assurity-thumbnail img{
+        width: 80%;
+        height: 80%;
+        padding: 24px;
+    }
+
+}

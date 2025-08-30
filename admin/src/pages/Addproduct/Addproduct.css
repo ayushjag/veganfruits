@@ -1,0 +1,65 @@
+.admin {
+    /* width: 100vw; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-container {
+    padding: 40px;
+    background-color: #212838;
+    width: 60%;
+    margin-top: 10px;
+}
+
+
+
+.admin-container h2 {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.admin-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.admin-container form input,
+textarea {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #171D28;
+    border: none;
+    color: #fff;
+}
+
+.admin-container form button {
+    width: 30%;
+    border: none;
+    padding: 15px 20px;
+    background-color: #171D28;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+form .home {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 600px) {
+    .admin-container form button {
+        width: 100%;
+    }
+}

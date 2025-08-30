@@ -1,0 +1,17 @@
+
+.categoryItem h1{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-size: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.categoryItem h1:hover{
+    background: #54AC00;
+    opacity: 0.8;
+    color: #fff;
+} 

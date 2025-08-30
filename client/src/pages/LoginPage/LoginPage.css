@@ -1,0 +1,70 @@
+
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600") center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    padding: 40px;
+    background-color: white;
+    width: 35%;
+}
+
+
+
+.login-container h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.login-container form input {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+ form button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: #54AC00;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+form button:disabled {
+    color: #54AC00;
+    cursor: not-allowed;
+}
+
+.login-container form p {
+    /* color: red($color: #000000); */
+    color: red;
+
+}
+
+
+ form .link {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}

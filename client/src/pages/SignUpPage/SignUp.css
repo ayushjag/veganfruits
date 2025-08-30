@@ -1,0 +1,73 @@
+
+
+.register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("https://images.pexels.com/photos/1105166/pexels-photo-1105166.jpeg?auto=compress&cs=tinysrgb&w=600") center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    padding: 40px;
+    background-color: white;
+    width: 35%;
+}
+
+
+
+.register-container h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.register-container form input {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.Agreement {
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.register-container form button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: #54AC00;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.register-container form button:disabled {
+    color: green;
+    cursor: not-allowed;
+}
+
+.register-container form p {
+    /* color: red($color: #000000); */
+    color: red;
+
+}
+
+
+.register-container form .link {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}

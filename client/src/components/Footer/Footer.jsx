@@ -60,7 +60,7 @@ const Footer = () => {
                         </div>
                         <div className="c-item">
                             <LocalPhoneIcon />
-                            <div className="text">+91 8541806579</div>
+                            <div className="text">+91 8541806279</div>
                         </div>
                         <div className="c-item">
                             <EmailIcon />

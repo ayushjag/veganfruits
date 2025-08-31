@@ -72,7 +72,7 @@ const LoginPage = () => {
 
                     {/* {error && <p>something went wrong....</p>} */}
 
-                    <div className="link">DO NOT YOU REMEMBER THE PASSWORD?</div>
+                   
                     <div className="link" onClick={() => navigate('/SignUp')}>CREATE A NEW ACCOUNT</div>
                 </form>
             </div>
